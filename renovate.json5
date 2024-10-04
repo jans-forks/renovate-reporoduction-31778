@@ -3,12 +3,19 @@
   extends: [
     "config:recommended"
   ],
-  "enabledManagers": ["mix"],
+  "enabledManagers": [
+    "mix"
+  ],
   packageRules: [
-    // {
-    //   "matchManagers": ["mix"],
-    //   matchDatasources: ["git-tags"],
-    //   "versioning": "git",
-    // },
+    {
+      "groupName": "mix",
+      "matchManagers": [
+        "mix"
+      ],
+    },
+    {
+      "matchDepNames": ["git_lib_pkg"],
+      "versioning": "git"
+    }
   ],
 }
