@@ -3,6 +3,7 @@
   extends: [
     "config:recommended"
   ],
+  "enabledManagers": ["mix"],
   packageRules: [
     // {
     //   "matchManagers": ["mix"],
