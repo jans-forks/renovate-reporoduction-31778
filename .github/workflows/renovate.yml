@@ -26,3 +26,4 @@ jobs:
           RENOVATE_FORCE: 'true'
           RENOVATE_FORCE_CLI: 'true'
           RENOVATE_DRY_RUN: "full"
+          RENOVATE_AUTODISCOVER: "true"
