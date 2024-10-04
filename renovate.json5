@@ -15,7 +15,7 @@
     },
     {
       "matchDepNames": ["git_lib_pkg"],
-      "versioning": "git"
+      "versioning": "semver"
     }
   ],
 }
