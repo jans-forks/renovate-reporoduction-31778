@@ -12,6 +12,7 @@
       "matchManagers": [
         "mix"
       ],
+      pinDigests: false
     },
   ],
 }
